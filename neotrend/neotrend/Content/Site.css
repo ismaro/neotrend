@@ -1,5 +1,5 @@
 ﻿body {
-    padding-top: 50px;
+    padding-top: 0;
     padding-bottom: 20px;
 }
 
@@ -39,4 +39,19 @@ input[type="checkbox"].input-validation-error {
 
 .validation-summary-valid {
     display: none;
+}
+.navbar{
+       background-image:none;
+       min-height: 50px !important;
+       z-index: 1001;
+       float:none;
+  }
+@media (min-width: 768px) {
+  .navbar{
+      min-height: 95px !important;
+      background-color: transparent !important; border: none; z-index: 1001;
+      background-repeat:no-repeat;
+      background-image:url(/images/zemin.png);
+      float:left;
+  }
 }
