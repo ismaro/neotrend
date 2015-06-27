@@ -40,18 +40,47 @@ input[type="checkbox"].input-validation-error {
 .validation-summary-valid {
     display: none;
 }
-.navbar{
-       background-image:none;
-       min-height: 50px !important;
-       z-index: 1001;
-       float:none;
-  }
+.navbar-nav > li > a {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  line-height: 20px;
+  color:#fff;
+}
+ .nav > li > a {
+    padding-left: 15px;
+    padding-right: 15px;
+    color:#fff;
+    font-size:12pt;
+}
+ .nav > li > a:hover,
+.nav > li > a:focus {
+  text-decoration: none;
+  background-color: #eee;
+}
+ .navbar-inverse .navbar-nav > li > a {
+  color: #9d9d9d;
+}
 @media (min-width: 768px) {
-  .navbar{
-      min-height: 95px !important;
-      background-color: transparent !important; border: none; z-index: 1001;
-      background-repeat:no-repeat;
-      background-image:url(/images/zemin.png);
-      float:left;
-  }
+    .navbar-nav > li > a {
+        padding-top: 28px;
+        padding-bottom: 3px;
+        line-height: 20px;
+        font-weight:bold;
+        color:#fff;
+    }
+    .nav > li > a {
+    padding-left: 15px;
+    padding-right: 1px;
+    color:#fff;
+    font-size:12pt;
+}
+    .navbar-inverse .navbar-nav > li > a {
+  color: #fff;
+}
+    .navbar-inverse .navbar-nav > li > a:hover,
+.navbar-inverse .navbar-nav > li > a:focus {
+  color: #e30b21;
+  background-color: transparent;
+}
+
 }
